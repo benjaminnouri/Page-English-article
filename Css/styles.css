@@ -1,0 +1,133 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+img {
+  border-radius: 50%;
+}
+
+/* Custom styles to match the design */
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.search-bar {
+  width: 300px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+}
+.input-group-prepend .input-group-text {
+  border-radius: 20px 0 0 20px;
+}
+.search-bar .form-control {
+  border-radius: 0 20px 20px 0;
+  height: 38px; /* To ensure consistent height */
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.375rem 0.75rem;
+}
+.nav-item .btn {
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
+svg {
+  vertical-align: top;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #292929;
+}
+.article-header, .article-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.member-badge {
+  color: #FFD700;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+.author-meta {
+  flex-grow: 1;
+}
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #757575;
+  font-size: 0.9rem;
+}
+.article-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.action-button {
+  background: none;
+  border: none;
+  color: #757575;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.illustration {
+  max-width: 300px;
+  margin: 2rem auto;
+}
+.dunning-kruger-graph {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+.aside-box {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+}
+blockquote {
+  border-left: 3px solid #292929;
+  padding-left: 1rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
